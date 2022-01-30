@@ -15,6 +15,7 @@ export default class TicketResults extends Component {
                     <TicketResultRow 
                         key={ticketData.ticketName}
                         ticketName={ticketData.ticketName}
+                        desc={ticketData.desc}
                     />
                 ))}
             </div>

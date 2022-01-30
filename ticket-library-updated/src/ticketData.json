@@ -622,7 +622,7 @@
     "id": 63,
     "ticketName": "Pop-up Modal (standard, age restriction modal)",
     "ticketRating": "3",
-    "tags": ["popups"],
+    "tags": "popups",
     "category": "Buttons/Pop-ups",
     "icon": "far fa-window-maximize",
     "desc" : "For normal popups",

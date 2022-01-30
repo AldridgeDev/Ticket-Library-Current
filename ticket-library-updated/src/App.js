@@ -6,14 +6,6 @@ import SearchInput from './components/SearchInput';
 
 import './App.css';
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <Header />
-//     </div>
-//   );
-// }
-
 export default class App extends Component {
   constructor(props) {
     super(props);
@@ -39,5 +31,3 @@ export default class App extends Component {
   }
 
 }
-
-// export default App;
