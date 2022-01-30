@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import "../styles/TicketResultRow.css";
 
 export default class TicketResultRow extends Component {
     static propTypes = {
@@ -7,7 +8,6 @@ export default class TicketResultRow extends Component {
     };
 
     render() {
-        // come back later to add clipboard
         return (
             <div className='component-ticket-result-row'>
                 <span className='ticketName'>{this.props.ticketName}</span>

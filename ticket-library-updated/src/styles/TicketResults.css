@@ -1,0 +1,15 @@
+.component-emoji-results {
+    display: grid;
+    grid-template-columns: repeat(2, 48%);
+    grid-gap: 2%;
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .component-emoji-results  {
+        grid-template-columns: repeat(1, 98%);
+    }
+}
