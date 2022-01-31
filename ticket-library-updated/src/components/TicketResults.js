@@ -16,6 +16,7 @@ export default class TicketResults extends Component {
                         key={ticketData.ticketName}
                         ticketName={ticketData.ticketName}
                         desc={ticketData.desc}
+                        icon={ticketData.icon}
                     />
                 ))}
             </div>

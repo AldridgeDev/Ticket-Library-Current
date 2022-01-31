@@ -12,10 +12,9 @@ export default class TicketResultRow extends Component {
     render() {
         return (
             <div className='component-ticket-result-row'>
-                <span className='ticketName'><i className={`${this.props.icon}`}></i> {this.props.ticketName}</span>
-                {/* <p className='desc'>{this.props.desc}</p> */}
-                {/* <i className="far fa-window-maximize"></i> */}
+                <span className='ticketName'><i className={this.props.icon}></i> {this.props.ticketName}</span>
+                <p className='desc'>{this.props.desc}</p>
             </div>
-        )
+        );
     }
 }
