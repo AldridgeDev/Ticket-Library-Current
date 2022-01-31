@@ -2,11 +2,11 @@
     "id": 1,
     "ticketName": "Delete/Hide 1 Item",
     "ticketRating": "1",
-    "tags": ["delete", "hide", "remove", "blank"],
+    "tags": "delete hide remove blank",
     "category": "Variety",
     "icon": "fas fa-trash-alt",
-    "desc": "For deleting or hiding 1 item only.<br><br>For deleting multiple items, see Delete/Hide Multiple Items",
-    "template" : "URL:&#013;&#013;Please delete the following item:&#013;&#013;Screenshot URL:"
+    "desc": "For deleting or hiding 1 item only. For deleting multiple items, see Delete/Hide Multiple Items",
+    "template" : "Please delete the following item: "
 },
 {
     "id": 2,
@@ -157,16 +157,6 @@
     "icon": "fas fa-sitemap",
     "desc" : "For removing Follow Us dropdown on San Antonio sites and having only icons appear. <strong>Note: if your site already has the icons and you want it to be in a dropdown instead, there is a chance that your site is an Easton site. In these cases we must change the site from Easton to San Antonio</strong>",
     "template" : "URL: "
-},
-{
-    "id": 17,
-    "ticketName": "Link change",
-    "ticketRating": "1",
-    "tags": ["change text", "replace links", "updating links", "update links", "change links"],
-    "category": "Header/Navigation",
-    "icon": "fas fa-code",
-    "desc" : "For changing or replacing one link on the site.",
-    "template" : "URL: &#013;&#013;Location of link:  &#013;&#013;Screenshot: "
 },
 {
     "id": 18,

@@ -17,6 +17,9 @@ export default class TicketResults extends Component {
                         ticketName={ticketData.ticketName}
                         desc={ticketData.desc}
                         icon={ticketData.icon}
+                        template={ticketData.template}
+                        category={ticketData.category}
+                        tags={ticketData.tags}
                     />
                 ))}
             </div>
