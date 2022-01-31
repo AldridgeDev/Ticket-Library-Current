@@ -10,7 +10,7 @@ export default class TicketResults extends Component {
 
     render() {
         return (
-            <div className='component-emoji-results'>
+            <div className='component-ticket-results'>
                 {this.props.ticketData.map(ticketData => (
                     <TicketResultRow 
                         key={ticketData.ticketName}
