@@ -3,6 +3,9 @@ import PropTypes from 'prop-types';
 import "../styles/TicketResultRow.css";
 
 export default class TicketResultRow extends Component {
+    // Very good. This is Type-Script :-)
+    // This is best practice and will be implemented in TSI code
+    // TS also includes default, so lets added
     static propTypes = {
         ticketName: PropTypes.string,
         desc: PropTypes.string,
@@ -10,6 +13,8 @@ export default class TicketResultRow extends Component {
         template: PropTypes.string,
         category: PropTypes.string,
     };
+
+    // look into prop defaults
 
     render() {
         return (

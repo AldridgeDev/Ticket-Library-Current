@@ -10,16 +10,17 @@ export default class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      filteredKeywords: FilterKeywords("", 20)
+      filteredKeywords: FilterKeywords("")
     };
   }
 
+  // Hooks, like useState, so you dont need to create this finction like this
   handleSearchChange = event => {
     this.setState({
-      filteredKeywords: FilterKeywords(event.target.value, 20)
+      filteredKeywords: FilterKeywords(event.target.value)
     });
   };
-
+  
   render() {
     return (
       <div>

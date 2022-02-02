@@ -16,7 +16,7 @@
     "category": "Variety",
     "icon": "far fa-trash-alt",
     "desc": "For deleting multiple items on a page",
-    "template" : "Url:&#013;&#013;Please delete the following items:&#013;&#013;Urls (if on multiple pages):&#013;&#013;Screenshot URLs:"
+    "template" : "Please delete the following items: "
 },
 {
     "id": 3,
@@ -25,8 +25,8 @@
     "tags": ["multiple edits", "multiple requests", "several edits", "several requests"],
     "category": "Variety",
     "icon": "fas fa-edit",
-    "desc": "For multiple small-mid edits<br><br>Examples:<br>floating button + header button<br>simple form edit + adding buttons<br>adding a banner + adding a video",
-    "template": "URL: "
+    "desc": "For multiple small-mid edits. Example: floating button + header button",
+    "template": ""
 },
 {
     "id": 4,
@@ -35,8 +35,8 @@
     "tags": ["multiple edits", "multiple requests", "several edits", "several requests"],
     "category": "Variety",
     "icon": "far fa-edit",
-    "desc": "For large tickets<br><br><strong>If your ticket consists of several edits across multiple pages, or 10+ edits your ticket might be a group project. Please reach out to Alex directly to construct this ticket</strong>",
-    "template": "URL: "
+    "desc": "For large tickets .If your ticket consists of several edits across multiple pages, or 10+ edits your ticket might be a group project. Please reach out to Alex directly to construct this ticket",
+    "template": ""
 },
 {
     "id": 5,
@@ -45,7 +45,7 @@
     "tags": ["pixel", "code", "third party", "javascript", "segment", "RT", "SV"],
     "category": "Code/Widgets/Videos",
     "icon": "fas fa-code",
-    "desc" : "<strong>WARNING: Please attach pixel to ticket as text file. CHILI WILL ERASE PART OF YOUR PIXEL CODE WHICH COULD RESULT IN THE CLIENT NOT HAVING THE PIXEL PROPERLY ON THEIR WEBSITE.</strong>",
+    "desc" : "WARNING: Please attach pixel to ticket as text file. CHILI WILL ERASE PART OF YOUR PIXEL CODE WHICH COULD RESULT IN THE CLIENT NOT HAVING THE PIXEL PROPERLY ON THEIR WEBSITE.",
     "template" : "See attached for pixel"
 },
 {
@@ -55,8 +55,8 @@
     "tags": ["pixel", "code", "third party", "javascript", "Google"],
     "category": "Code/Widgets/Videos",
     "icon": "fas fa-code",
-    "desc" : "<strong>WARNING: Please attach google codes to ticket as text file. CHILI WILL ERASE PART OF YOUR GOOGLE CODES WHICH COULD RESULT IN THE CLIENT NOT HAVING THE CODES PROPERLY ON THEIR WEBSITE.</strong>",
-    "template" : "See attached for google codes&#013;&#013;Header Script file name:&#013;&#013;Content/Body Script file name:"
+    "desc" : "WARNING: Please attach google codes to ticket as text file. CHILI WILL ERASE PART OF YOUR GOOGLE CODES WHICH COULD RESULT IN THE CLIENT NOT HAVING THE CODES PROPERLY ON THEIR WEBSITE.",
+    "template" : "See attached for google codes."
 },
 {
     "id": 7,
@@ -66,7 +66,7 @@
     "category": "Code/Widgets/Videos",
     "icon": "fas fa-file-code",
     "desc": "For troubleshooting something on the website that does not work (i.e. forms, widgets, third party code, anything broken, etc)",
-    "template": "URL: &#013;&#013;Issue:"
+    "template": "Issue: "
 },
 {
     "id": 8,
@@ -75,8 +75,8 @@
     "tags": ["video", "vimeo video addition", "mp4", "mov", "upload video", "single video", "video single", "youtube video addition"],
     "category": "Code/Widgets/Videos",
     "icon": "fas fa-film",
-    "desc": "For adding 1 video to a page<br><br><strong>Must attach video to ticket or through Dropbox or Google Drive (Google drive must have public access)</strong> see <a target=\"_blank\" href=\"http://supportdesignertraining.production.townsquareinteractive.com/request-limits/\">Ticket Limitations Page #2</a>",
-    "template": "URL: &#013;&#013;Location on the page to add video:"
+    "desc": "For adding 1 video to a page. Must attach video to ticket or through Dropbox or Google Drive (Google drive must have public access)see Ticket Limitations Page #2",
+    "template": "Location on the page to add video: "
 },
 {
     "id": 9,
@@ -85,8 +85,8 @@
     "tags": ["video", "vimeo video addition", "mp4", "mov", "upload video", "youtube video addition", "video multiple", "videos multiple", "multiple videos"],
     "category": "Code/Widgets/Videos",
     "icon": "fas fa-film",
-    "desc": "For adding 2-5 videos on a site<br><br><strong>Must attach videos to ticket or through Dropbox or Google Drive (Google drive must have public access)</strong> see <a target=\"_blank\" href=\"http://supportdesignertraining.production.townsquareinteractive.com/request-limits/\">Ticket Limitations Page #2</a>",
-    "template": "URL: &#013;&#013;Location(s) to add videos:"
+    "desc": "For adding 2-5 videos on a site. Must attach videos to ticket or through Dropbox or Google Drive (Google drive must have public access) see Ticket Limitations Page #2",
+    "template": "Location(s) to add videos: "
 },
 {
     "id": 10,
@@ -95,8 +95,8 @@
     "tags": ["video", "vimeo video addition", "mp4", "mov", "upload video", "youtube video addition", "video multiple", "videos multiple", "multiple videos"],
     "category": "Code/Widgets/Videos",
     "icon": "fas fa-film",
-    "desc": "For adding 6-10 videos on a site<br><br><strong>Max 15 videos on a single page</strong><br><br><strong>Must attach videos to ticket or through Dropbox or Google Drive (Google drive must have public access)</strong>, see <a target=\"_blank\" href=\"http://supportdesignertraining.production.townsquareinteractive.com/request-limits/\">Ticket Limitations Page #2</a>",
-    "template": "URL: &#013;&#013;Location(s) to add videos:"
+    "desc": "For adding 6-10 videos on a site. Max 15 videos on a single page. Must attach videos to ticket or through Dropbox or Google Drive (Google drive must have public access), see Ticket Limitations Page #2",
+    "template": "Location(s) to add videos: "
 },
 {
     "id": 11,
@@ -105,8 +105,8 @@
     "tags": ["video", "vimeo", "mp4", "mov", "upload", "lead", "top", "page", "first", "section", "above", "lead", "hero"],
     "category": "Code/Widgets/Videos",
     "icon": "fas fa-photo-video",
-    "desc": "For adding a video DL<br><br><strong>WARNING: We do not recommend having a wordy video DL. Video DLs have a set height and modifying the height can cause issues. Normal headline and subheadline is appropriate </strong>",
-    "template": "URL: &#013;&#013;"
+    "desc": "For adding a video DL. WARNING: We do not recommend having a wordy video DL. Video DLs have a set height and modifying the height can cause issues. Normal headline and subheadline is appropriate",
+    "template": ""
 },
 {
     "id": 12,
@@ -115,8 +115,8 @@
     "tags": ["third party"],
     "category": "Code/Widgets/Videos",
     "icon": "fas fa-file-code",
-    "desc": "Please attach code to ticket as text file. CHILI WILL ERASE PART OF YOUR CODE WHICH COULD RESULT IN THE CLIENT NOT HAVING THE CODE PROPERLY ON THEIR WEBSITE.</strong>",
-    "template": "URL: &#013;&#013;"
+    "desc": "Please attach code to ticket as text file. CHILI WILL ERASE PART OF YOUR CODE WHICH COULD RESULT IN THE CLIENT NOT HAVING THE CODE PROPERLY ON THEIR WEBSITE.",
+    "template": ""
 },
 {
     "id": 13,
@@ -125,8 +125,8 @@
     "tags": ["third party", "widget", "social media"],
     "category": "Code/Widgets/Videos",
     "icon": "fas fa-file-code",
-    "desc": "Basic Facebook Feed<br><br><strong>Please note: Instagram or any other social media feed codes must be provided and attached to ticket.</strong> see <a target=\"_blank\" href=\"http://supportdesignertraining.production.townsquareinteractive.com/request-limits/\">Ticket Limitations Page #8</a>",
-    "template": "URL: &#013;&#013;Facebook Link: &#013;&#013;Screenshot URL of location to place on page: "
+    "desc": "Basic Facebook Feed. Please note: Instagram or any other social media feed codes must be provided and attached to ticket. See Ticket Limitations Page #8",
+    "template": "Facebook Link: "
 },
 {
     "id": 14,
@@ -136,7 +136,7 @@
     "category": "Header/Navigation",
     "icon": "fas fa-window-maximize",
     "desc": "For changing the look of some or all of the header &#013; &#013;",
-    "template": "URL:  &#013;&#013;Description:  &#013; &#013;Site Example URL: "
+    "template": "Description/Example Site: "
 },
 {
     "id": 15,
@@ -146,7 +146,7 @@
     "category": "Header/Navigation",
     "icon": "fab fa-facebook", 
     "desc" : "Adding an icon to social bar in the header",
-    "template" : "URL:  &#013;  &#013;Title/Text:  &#013; &#013;Link: "
+    "template" : "Title/Text & Link:  "
 },
 {
     "id": 16,
@@ -155,8 +155,8 @@
     "tags": ["facebook", "instagram", "in the social bar", "change follow us dropdown", "release", "convert", "break out", "icon conversion", "icons conversion"],
     "category": "Header/Navigation",
     "icon": "fas fa-sitemap",
-    "desc" : "For removing Follow Us dropdown on San Antonio sites and having only icons appear. <strong>Note: if your site already has the icons and you want it to be in a dropdown instead, there is a chance that your site is an Easton site. In these cases we must change the site from Easton to San Antonio</strong>",
-    "template" : "URL: "
+    "desc" : "For removing Follow Us dropdown on San Antonio sites and having only icons appear. Note: if your site already has the icons and you want it to be in a dropdown instead, there is a chance that your site is an Easton site. In these cases we must change the site from Easton to San Antonio",
+    "template" : ""
 },
 {
     "id": 18,
@@ -166,7 +166,7 @@
     "category": "Header/Navigation",
     "icon": "fas fa-bars",
     "desc" : "For organizing nav links.",
-    "template" : "URL: &#013;&#013;Order of nav links: "
+    "template" : "Order of nav links: "
 },
 {
     "id": 19,
@@ -176,7 +176,7 @@
     "category": "Header/Navigation",
     "icon": "fas fa-file-image",
     "desc" : "Creating a new favicon/changing existing favicon. Please specify if you would like the logo to be converted into a favicon or attach the favicon to the ticket",
-    "template" : "URL: &#013;&#013;"
+    "template" : ""
 },
 {
     "id": 20,
@@ -185,8 +185,8 @@
     "tags": ["change", "edit logo", "logos", "add to logo", "remove background", "image", "img"],
     "category": "Header/Navigation",
     "icon": "far fa-image",
-    "desc" : "For creating a new logo or editing current logo. <strong>PLEASE ADVISE: We cannot edit client provided logos. <a target=\"_blank\" href=\"http://supportdesignertraining.production.townsquareinteractive.com/request-limits/\">See Section 3 of Ticket Limitations page for details</a></strong>",
-    "template" : "URL: &#013;&#013;"
+    "desc" : "For creating a new logo or editing current logo. PLEASE ADVISE: We cannot edit client provided logos. See Section 3 of Ticket Limitations page for details",
+    "template" : ""
 },
 {
     "id": 21,
@@ -196,7 +196,7 @@
     "category": "Header/Navigation",
     "icon": "fas fa-window-maximize",
     "desc" : "For any banner you would like in the header",
-    "template" : "URL: &#013;&#013;Text for Banner:&#013;&#013;URL banner will link to (if applicable): "
+    "template" : "Text for Banner (also provide link if needed): "
 },
 {
     "id": 22,
@@ -206,7 +206,7 @@
     "category": "Header/Navigation",
     "icon": "fas fa-window-maximize",
     "desc" : "For any additional text or links in the header",
-    "template" : "URL: &#013;&#013;Text:&#013;&#013;URL text will link to (if applicable):"
+    "template" : "Text & URL text will link to (if applicable): "
 },
 {
     "id": 23,
@@ -215,8 +215,8 @@
     "tags": ["color", "font", "style", "styling", "wording", "transparent", "hidden", "white on white", "not there"],
     "category": "Style",
     "icon": "fas fa-font",
-    "desc" : "For changing one item's color on the site. For multple color changes see <strong>Color/font changes (multiple)</strong>",
-    "template" : "URL: &#013;&#013;Description: &#013;&#013;Screenshot of item: "
+    "desc" : "For changing one item's color on the site. For multple color changes see Color/font changes (multiple)",
+    "template" : "Description: "
 },
 {
     "id": 24,
@@ -226,7 +226,7 @@
     "category": "Style",
     "icon": "fas fa-font",
     "desc" : "For changing the color of multiple items on a site.",
-    "template" : "URL: &#013;&#013;Description: &#013;&#013;Screenshot(s) of items: "
+    "template" : "Description: "
 },
 {
     "id": 25,
@@ -236,7 +236,7 @@
     "category": "Style",
     "icon": "far fa-images",
     "desc" : "For updating current features on a site (i.e. changing wording, removing an existing feature, adding a feature, etc)",
-    "template" : "URL: &#013;&#013;Description: "
+    "template" : "Description: "
 },
 {
     "id": 26,
@@ -245,8 +245,8 @@
     "tags": ["features", "option", "icons", "images", "img"],
     "category": "Style",
     "icon": "far fa-images",
-    "desc" : "For changing the feature style on a site (or adding features if the site never had any). <strong>Please Note: Any example sites provided must match the theme of the client's site. We cannot guarantee feature styles will work if the themes do not match.</strong>",
-    "template" : "URL: &#013;&#013;Description of Style: &#013;&#013;Example site: "
+    "desc" : "For changing the feature style on a site (or adding features if the site never had any). <strong>Please Note: Any example sites provided must match the theme of the client's site. We cannot guarantee feature styles will work if the themes do not match.",
+    "template" : "Description of Style: "
 },
 {
     "id": 27,
@@ -255,8 +255,8 @@
     "tags": ["features", "option", "icons", "price", "price packages"],
     "category": "Style",
     "icon": "far fa-images",
-    "desc" : "<strong style=\"color: #ff0000;\">Pricing packages have been removed from design source and are currently not available as they were creating issues on our sites. See Alex for details.</strong>",
-    "template" : "N/A"
+    "desc" : "Pricing packages have been removed from design source and are currently not available as they were creating issues on our sites. See Alex for details.",
+    "template" : ""
 },
 {
     "id": 28,
@@ -265,8 +265,8 @@
     "tags": ["main", "landing page", "layouts", "features", "adding", "multiple", "several"],
     "category": "Style",
     "icon": "far fa-window-maximize",
-    "desc" : "For changing the homepage layout on a large scale. <strong>Please note, this should only be for tickets targeting the homepage only. If the site is needing major changes throughout the site, speak with Alex as it may be considered a Redesign.</strong>",
-    "template" : "URL: &#013;&#013;Description: &#013;&#013;URL of example site (themes must match): "
+    "desc" : "For changing the homepage layout on a large scale. Please note, this should only be for tickets targeting the homepage only. If the site is needing major changes throughout the site, speak with Alex as it may be considered a Redesign.",
+    "template" : "Description: "
 },
 {
     "id": 29,
@@ -276,7 +276,7 @@
     "category": "Pages",
     "icon": "far fa-window-maximize",
     "desc" : "For creating a new page (About Us, Service Area, Gallery, any new page!)",
-    "template" : "URL: &#013;&#013;Page Name: &#013;&#013;Content: &#013;&#013;Description: "
+    "template" : "Page Name, Content, & Description: "
 },
 {
     "id": 30,
@@ -286,7 +286,7 @@
     "category": "Pages",
     "icon": "far fa-window-restore",
     "desc" : "For creating 2 or 3 new pages. Please attach content with page names in a word doc for this ticket.",
-    "template" : "URL: &#013;&#013;Description: "
+    "template" : "Description: "
 },
 {
     "id": 31,
@@ -296,7 +296,7 @@
     "category": "Pages",
     "icon": "far fa-window-restore",
     "desc" : "For creating 4 or more new pages. Please attach content with page names in a word doc for this ticket.",
-    "template" : "URL: &#013;&#013;Description: "
+    "template" : "Description: "
 },
 {
     "id": 32,
@@ -306,7 +306,7 @@
     "category": "Pages",
     "icon": "fas fa-laptop-code",
     "desc":"This is for creating pages with an above average layout. Please note: If providing a non-tsi site as an example- TSI sites have certian limitations and there is not a guarantee that the layout will be a one to one comparison of the non-tsi example page, but we will do our best to accomodate to the client's request",
-    "template":"URL: &#013;&#013;Description: "
+    "template":"Description: "
 },
 {
     "id": 33,
