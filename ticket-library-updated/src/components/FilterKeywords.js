@@ -5,9 +5,9 @@ export default function FilterKeywords(searchText, maxResults = 20) {
         .filter(ticket => {
             let searchTerm = searchText.toLowerCase();
             let tagNames = JSON.stringify(ticket.tags);
-            // console.log("ticketName", ticket.ticketName);
-            // console.log("ticket.tags", ticket.tags); // Array
-            // console.log("tagNames", tagNames); // String
+            
+
+            /* let tagNames = ticket.tags; */
 
             if (ticket.ticketName.toLowerCase().includes(searchTerm) || 
                (ticket.category.toLowerCase().includes(searchTerm)) ||

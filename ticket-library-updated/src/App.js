@@ -14,7 +14,7 @@ export default class App extends Component {
     };
   }
 
-  // Hooks, like useState, so you dont need to create this finction like this
+  // Note from Juan: Hooks, like useState, so you dont need to create this finction like this
   handleSearchChange = event => {
     this.setState({
       filteredKeywords: FilterKeywords(event.target.value)
@@ -28,7 +28,12 @@ export default class App extends Component {
         <SearchInput textChange={this.handleSearchChange} />
         <TicketResults ticketData={this.state.filteredKeywords} />
       </div>
-    )
+    );
   }
 
 }
+
+// todo 
+// [x] default props
+// [x] component styling
+// [] hooks like useState
